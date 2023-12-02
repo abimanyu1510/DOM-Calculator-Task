@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAMAAABmmnOVAAAArlBMVEX6mAv////l5eXW1tba2trh4eHe3t76lAD/mwv4tnT8uXrDdwnKewnukQrCeyX8mQD6kAB0dHT52b/ttYT95czttH7MdgDz8/OOjo6oqKiwsLDe0MSdnZ3t7e35oDn8+PD1nSnUw7XvkB38voP4zaHwyaL97Nv+2bjcqnvytHr80az98+f6mR/6pkP5yZb6qVH5tGvwqGTKtKH6sWG9vb3rnUfw5tnt1r7x3sztvpH3k71nAAADr0lEQVR4nO3bcV+iMBgH8FHCrrqOnVGWpWCYZaLS2dX5/t/YqYDl9gz2PCnm57PfXyaE37Y9gLEx5xuE7RuwjEUUsYgiFlHEIoqUIgaPz/FpVZ6GVXvEz80RERHEEeOCV+bqvHIXwZPxpMShQzxOOfeZQX78PDfZjQuWDnCIYCy4yaHNEStHGiIQMTclYBALRvJoighTYXxYHIL5YmKGCMfmzYBFMCZiE0SYoAxYBBMnBogZzoBGMK72iIyYYMYDCcGEUqoSIkC2AwXhR3KlSgjcoKQhmFIim4gmtjNICD8ZlSHwDUFBKE2xgRjgG4KE8FkJIsY3BAnBeKBFhNPaEBMtYqD9Ha6/otEQYy1CVxvJaRzHyTYRjGsRfRjhd5cnl0hzi0NDiJEOoRmXO0EEOsRJjYimRRwmIv/asLr0RvkPBgjgm4f8F5gjRD/IstyYv+zLCgXhR81ASSof2hyxeYZfRbnrURFd4NuFXP0WgUfwl8tV5sujXmSvU3mIqQMzGV7KuRhLv0asjmRP1ZHHnqws4psiRq1WuGcEY/eL6A5XG8JfZO+IsliERViERViERRwqwsdHj7g8I+UXIWd/ttsSV7dHhLQswiIswiIs4oAQrkXsDOEScoAIH3xZL4J3P96MIGQNCDFbz7ARfXCSCYAARyIdwaeLt2ciMzhOCLSFijhq3yh5lRSeOcKPsvdFZnCckfqIFkBc/1ZyR0cw/pAr8ofbQ7glvI3AiM19vA5mTGSK6WTdJHtAMDH/2P4CPcZWEW77Tknb/QqC8bViCD5KVxFGwSGKHoHboTZEP9s60yF6u0fw/nqzpjsoiAZuYH6aeALOTlQR7t21khv3C4i8L9IHbY8sEI3NuFCJutJOCETeFycir9RT6GTV83aKyE/by9rMamQAnbZlhAchPDKC8Zf1gFwqwr8mLeG9tpW8GiOAOTUiXZ+jFpfye/BSLo+JBlgOpghodhGPKm9qFIRJtFdRcJ5V9e0dCeHoECPoQ6qybYRDmntHQrh6BGkWIgnR0SPeKPMxSQhHj6D0BwnhliGa9SCOW2UIymzlq94xNlJDyIi3WhCtcoRuTuZWER2nAoGfy49GyJ0BLa3o4hRohKd8IrS+A1enWARg2MJKFxwCMsBrfubGy46wiCPo4zSrn95m5qufEIiGXJulCMd5N14HZoxoKKVZhXCcf/OIG6yI8w0RnpZQvjaw1Xl/uKjM023VpcKT/ouMQtQWiyhiEUUsoohFFLGIIhZR5D+3Kq5sKULvyQAAAABJRU5ErkJggg=="
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <div class="calculator" id="calculator">
+      <input type="text" placeholder="0" id="result" />
+      <button onclick="ClearResult('AC')" id="clear">AC</button>
+      <button onclick="Erase('DEL')" id="erase">DEL</button>
+      <button onclick="Number('.')" id="Dot">.</button>
+      <button onclick="Number('*')" id="multiply">*</button>
+      <button onclick="Number('7')" id="7"></button>
+      <button onclick="Number('8')" id="8"></button>
+      <button onclick="Number('9')" id="9"></button>
+      <button onclick="Number('/')" id="division">/</button>
+      <button onclick="Number('4')" id="4"></button>
+      <button onclick="Number('5')" id="5"></button>
+      <button onclick="Number('6')" id="6"></button>
+      <button onclick="Number('-')" id="subtract">-</button>
+      <button onclick="Number('1')" id="1"></button>
+      <button onclick="Number('2')" id="2"></button>
+      <button onclick="Number('3')" id="3"></button>
+      <button onclick="Number('+')" id="add">+</button>
+      <button onclick="Equal('=')" id="0"></button>
+      <button onclick="Number('00')" id="00"></button>
+      <button onclick="Equal('=')" id="equal">=</button>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
