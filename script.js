@@ -2,7 +2,7 @@ const title=document.getElementById("title");
 title.innerText=" CALCULATOR TASK ";
 
 const description=document.getElementById("description");
-description.innerText="Create Calculator using DOM";
+description.innerText="Build Calculator using DOM";
 
 const one=document.getElementById("1").innerText="1";
 const two=document.getElementById("2").innerText="2";
